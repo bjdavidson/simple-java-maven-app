@@ -16,17 +16,15 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <name>third-party-snapshots</name>
-      <uniqueVersion>false</uniqueVersion>
-      <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
-    <repository>
-      <id>central</id>
-      <name>third-party-releases</name>
-      <url>http://localhost:8081/artifactory/libs-release-local</url>
-    </repository>
+   <snapshotRepository>
+     <id>snapshots</id>
+     <name>4f80ac7f2468-snapshots</name>
+     <url>http://localhost/artifactory/libs-snapshot-local</url>
+   </snapshotRepository>
+   <repository>
+     <id>central</id>
+     <name>4f80ac7f2468-releases</name>
+     <url>http://localhost/artifactory/libs-release-local</url>
   </distributionManagement>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
